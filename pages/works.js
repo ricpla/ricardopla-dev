@@ -3,8 +3,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article';
 
-import thumbInkDrop from '../public/images/works/inkdrop_eyecatch.png'
-import thumbWalkNote from '../public/images/works/walknote_eyecatch.png'
+import thumb from '../public/images/174.png'
 
 const Works = () => {
     return (
@@ -16,17 +15,12 @@ const Works = () => {
 
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
                     <Section>
-                        <WorkGridItem id="marinoturismo" title="Mariño turismo" thumbnail={thumbInkDrop}>
+                        <WorkGridItem id="marinoturismo" title="Mariño turismo" thumbnail={thumb}>
                             Web for Mariño Turismo
                         </WorkGridItem>
                     </Section>
                     <Section>
-                        <WorkGridItem id="grupocomienza" title="Grupocomienza" thumbnail={thumbWalkNote}>
-                            Corporative Web Grupocomienza
-                        </WorkGridItem>
-                    </Section>
-                    <Section>
-                        <WorkGridItem id="grupocomienza" title="Grupocomienza" thumbnail={thumbWalkNote}>
+                        <WorkGridItem id="grupocomienza" title="Grupocomienza" thumbnail={thumb}>
                             Corporative Web Grupocomienza
                         </WorkGridItem>
                     </Section>
