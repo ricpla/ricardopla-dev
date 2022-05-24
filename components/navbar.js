@@ -75,10 +75,13 @@ const Navbar = props => {
                     <LinkItem href="/posts" path={path}>
                         Posts
                     </LinkItem>
+                    <LinkItem href="/404" path={path}>
+                        Contact me
+                    </LinkItem>
                 </Stack>
                 <Box flex={1} align="right">
                     <ThemeToggleButton />
-                    <Link href="http://ricardopla-portfolio.herokuapp.com/" p={2}>
+                    <Link href="https://mini.ricardopla.dev/" p={2}>
                         <ExternalLinkIcon mx="2px" />Mini
                     </Link>
                     <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
