@@ -3,7 +3,8 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article';
 
-import thumb from '../public/images/174.png'
+import grupo from '../public/images/works/grupo-1.png'
+import marino from '../public/images/works/marino-1.png'
 
 const Works = () => {
     return (
@@ -15,12 +16,12 @@ const Works = () => {
 
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
                     <Section>
-                        <WorkGridItem id="marinoturismo" title="Mariño turismo" thumbnail={thumb}>
+                        <WorkGridItem id="marinoturismo" title="Mariño turismo" thumbnail={marino}>
                             Web for Mariño Turismo
                         </WorkGridItem>
                     </Section>
                     <Section>
-                        <WorkGridItem id="grupocomienza" title="Grupocomienza" thumbnail={thumb}>
+                        <WorkGridItem id="grupocomienza" title="Grupocomienza" thumbnail={grupo}>
                             Corporative Web Grupocomienza
                         </WorkGridItem>
                     </Section>

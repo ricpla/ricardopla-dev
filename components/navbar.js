@@ -21,19 +21,19 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
     const active = path === href
     const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
     return (
-      <NextLink href={href} passHref scroll={false}>
-        <Link
-          p={2}
-          bg={active ? 'grassTeal' : undefined}
-          color={active ? '#202023' : inactiveColor}
-          target={target}
-          {...props}
-        >
-          {children}
-        </Link>
-      </NextLink>
+        <NextLink href={href} passHref scroll={false}>
+            <Link
+                p={2}
+                bg={active ? 'grassTeal' : undefined}
+                color={active ? '#202023' : inactiveColor}
+                target={target}
+                {...props}
+            >
+                {children}
+            </Link>
+        </NextLink>
     )
-  }
+}
 
 const Navbar = props => {
     const { path } = props
@@ -81,7 +81,7 @@ const Navbar = props => {
                 </Stack>
                 <Box flex={1} align="right">
                     <ThemeToggleButton />
-                    <Link href="https://mini.ricardopla.dev/" p={2}>
+                    <Link href="https://mini.ricardopla.dev/" p={2} m={2}>
                         <ExternalLinkIcon mx="2px" />Mini
                     </Link>
                     <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
@@ -100,8 +100,8 @@ const Navbar = props => {
                                     <MenuItem as={Link}>Posts</MenuItem>
                                 </NextLink>
 
-                                <NextLink href="/posts" passHref>
-                                    <MenuItem as={Link} href="">View Source</MenuItem>
+                                <NextLink href="https://github.com/ricpla/ricardopla-dev" passHref>
+                                    <MenuItem as={Link} href="https://github.com/ricpla/ricardopla-dev">View Source</MenuItem>
                                 </NextLink>
                             </MenuList>
 
