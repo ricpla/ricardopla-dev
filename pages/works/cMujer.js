@@ -8,17 +8,17 @@ const Work = () => {
     return (
         <Layout title="Grupo comienza">
             <Container>
-                <WorkImage src="/images/works/grupo-1.png" alt="marino-cover" />
+                <WorkImage src="/images/works/gus-1.png" alt="marino-cover" />
                 <Title>
-                    Grupo comienza <Badge>2022</Badge>
+                CMujerPositiva <Badge>2021</Badge>
                 </Title>
-                <P>Design, creation and implementation of Grupocomienza's corporate
-                    website</P>
+                <P>Design and implementation of a Landing Page for the brand
+                    CmujerPositiva</P>
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href="https://grupocomienza.com/">
-                            https://grupocomienza.com/ <ExternalLinkIcon mx="2px" />
+                        <Link href="https://cmujerpositiva.com/10-pasos-para-ser-una-mujer-positiva/">
+                        https://cmujerpositiva.com/10-pasos-para-ser-una-mujer-positiva/ <ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
                     <ListItem>
@@ -27,10 +27,10 @@ const Work = () => {
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>NodeJs, HTML5, CSS3, Javascript</span>
+                        <span>Wordpress</span>
                     </ListItem>
                 </List>
-                <WorkImage src="/images/works/grupo-2.png" alt="Grupocomienza" />
+                <WorkImage src="/images/works/gus-2.png" alt="Grupocomienza" />
             </Container>
         </Layout>
 

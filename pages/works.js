@@ -5,11 +5,15 @@ import Layout from '../components/layouts/article';
 
 import grupo from '../public/images/works/grupo-1.png'
 import marino from '../public/images/works/marino-1.png'
+import CoverImage from '../components/coverImage';
+import cMujer from '../public/images/works/gus-1.png'
+import funda from '../public/images/works/funda-1.png'
 
 const Works = () => {
     return (
         <Layout>
             <Container>
+                <CoverImage />
                 <Heading as="h3" fontSize={20} mb={4} >
                     Works
                 </Heading>
@@ -21,8 +25,18 @@ const Works = () => {
                         </WorkGridItem>
                     </Section>
                     <Section>
-                        <WorkGridItem id="grupocomienza" title="Grupocomienza" thumbnail={grupo}>
-                            Corporative Web Grupocomienza
+                        <WorkGridItem id="grupocomienza" title="Grupo comienza" thumbnail={grupo}>
+                            Corporative Web Grupo comienza
+                        </WorkGridItem>
+                    </Section>
+                    <Section>
+                        <WorkGridItem id="funda" title="Fundación Santiago Mariño" thumbnail={funda}>
+                            Web for Santiago Mariño Foundation
+                        </WorkGridItem>
+                    </Section>
+                    <Section>
+                        <WorkGridItem id="cMujer" title="CMujerPositiva" thumbnail={cMujer}>
+                            Landing page for CMujerPositiva
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>
