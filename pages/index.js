@@ -1,5 +1,5 @@
 import NextLink from 'next/link'
-import { Button, Container, Box, Heading, useColorModeValue, Link, SimpleGrid, List, ListItem, Icon, chakra } from "@chakra-ui/react"
+import { Button, Container, Box, Heading, useColorModeValue, Link, SimpleGrid, List, ListItem, Icon, chakra, Text } from "@chakra-ui/react"
 import Layout from '../components/layouts/article';
 import Section from "../components/section";
 import Paragraph from "../components/paragraph";
@@ -42,7 +42,7 @@ const Home = () => (
         <CoverImage />
         <Container>
             <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-                Hello, I&apos;m a full-stack developer based in venezuela!
+                Hello, I&apos;m a Frontend developer based in venezuela!
             </Box>
             <Box display={{ md: "flex" }}>
                 <Box flexGrow={1}>
@@ -80,13 +80,12 @@ const Home = () => (
                 <Heading as="h3" variant="section-title">
                     work
                 </Heading>
-                <Paragraph> lorem impsum, text, that i have to write, who i'am to disagree, somebody want to be use us{' '}
-                    <NextLink href="/works/rick" passHref scroll={false}>
+                <Paragraph> Creation and development of web pages, currently working mainly in design, and user experience, with a strong knowledge of JavaScript language, creating functional algorithms, and in continuous practice to delve into new sectors thus achieving a complete development of {' '}
+                    <NextLink href="/works" passHref scroll={false}>
                         <Link>
-                            Ricardo Pla
+                            digital products.
                         </Link>
                     </NextLink>
-                    .
                 </Paragraph>
                 <Box align="center" my={4}>
                     <NextLink href="/works" passHref scroll={false}>
@@ -103,7 +102,11 @@ const Home = () => (
                 </Heading>
                 <BioSection>
                     <BioYear>1998</BioYear>
-                    Born in ven
+                    Born in venezuela
+                </BioSection>
+                <BioSection>
+                    <BioYear>2018</BioYear>
+                    Start to work as Designer
                 </BioSection>
                 <BioSection>
                     <BioYear>2021</BioYear>
@@ -120,11 +123,9 @@ const Home = () => (
                     I ❤️
                 </Heading>
                 <Paragraph>
-                    Art, Music,{' '}
-                    <Link href="">Drawing</Link>
-                    , Playing Drums,{' '}
-                    <Link href="">Photography</Link>
-                    , Leica, Machine Learning
+                    Study (yes, it sounds trite but yes), write a lot, but a LOT of {' '}
+                    <Link href="https://github.com/ricpla">code</Link>
+                    . Fine arts, create, minimalism, and cookies (To eat) :{')'}
                 </Paragraph>
             </Section>
 
@@ -141,7 +142,7 @@ const Home = () => (
                         </Link>
                     </ListItem>
                     <ListItem>
-                        <Link href="" target="_blank">
+                        <Link href="https://www.linkedin.com/in/ricardo-pla/" target="_blank">
                             <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoLinkedin} />}>
                                 in/ricardo-pla
                             </Button>
@@ -157,7 +158,7 @@ const Home = () => (
                 </List>
             </Section>
             <Section delay={0.3}>
-                <SimpleGrid columns={[1, 2, 2]} gap={6}>
+                {/* <SimpleGrid columns={[1, 2, 2]} gap={6}>
                     <GridItem
                         href=""
                         title="title"
@@ -172,7 +173,9 @@ const Home = () => (
                     >
                         lorem ipsum
                     </GridItem>
-                </SimpleGrid>
+                </SimpleGrid> */}
+
+                <Text align="center" my={4}>I haven't published anything yet, but I will soon :{')'}</Text>
 
                 <Box align="center" my={4}>
                     <NextLink href="/posts" passHref scroll={false}>

@@ -10,10 +10,10 @@ const Posts = () => (
         <Container>
             <CoverImage />
             <Heading as="h3" fontSize={20} mb={4}>
-                Posts
+                Contact me
             </Heading>
 
-            <Text>I haven't published anything yet, but I will soon :{')'}</Text>
+            <Text>Coming soon</Text>
             <Divider my={6} />
             <Box my={6} align="center">
                 <NextLink href="/" passHref scroll={false}>

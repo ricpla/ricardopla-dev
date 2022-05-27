@@ -75,13 +75,13 @@ const Navbar = props => {
                     <LinkItem href="/posts" path={path}>
                         Posts
                     </LinkItem>
-                    <LinkItem href="/404" path={path}>
+                    <LinkItem href="/contact" path={path}>
                         Contact me
                     </LinkItem>
                 </Stack>
                 <Box flex={1} align="right">
                     <ThemeToggleButton />
-                    <Link href="https://mini.ricardopla.dev/" p={2} m={2}>
+                    <Link href="https://mini.ricardopla.dev/" p={2}>
                         <ExternalLinkIcon mx="2px" />Mini
                     </Link>
                     <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
@@ -98,6 +98,10 @@ const Navbar = props => {
 
                                 <NextLink href="/posts" passHref>
                                     <MenuItem as={Link}>Posts</MenuItem>
+                                </NextLink>
+
+                                <NextLink href="/contact" passHref>
+                                    <MenuItem as={Link}>Contact me</MenuItem>
                                 </NextLink>
 
                                 <NextLink href="https://github.com/ricpla/ricardopla-dev" passHref>

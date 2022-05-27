@@ -7,10 +7,12 @@ import {
     Divider,
     Button
 } from '@chakra-ui/react'
+import CoverImage from '../components/coverImage'
 
 const NotFound = () => {
     return (
         <Container>
+            <CoverImage />
             <Heading as="h1">404 Not found</Heading>
             <Text>The page you&apos;re looking for was not found.</Text>
             <Divider my={6} />
