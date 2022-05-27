@@ -135,7 +135,7 @@ const Home = () => (
                 </Heading>
                 <List>
                     <ListItem>
-                        <Link href="https://github.com/" target="_blank">
+                        <Link href="https://github.com/ricpla" target="_blank">
                             <Button variant="ghost" colorScheme="teal" leftIcon={<Icon as={IoLogoGithub} />}>
                                 @ricpla
                             </Button>
