@@ -31,6 +31,10 @@ const Work = () => {
                         <Meta>Stack</Meta>
                         <span>PHP, HTML5, CSS3, Javascript, Jquery</span>
                     </ListItem>
+                    <ListItem>
+                        <Meta>Hosting</Meta>
+                        <span>Heroku</span>
+                    </ListItem>
                 </List>
 
                 <WorkImage src="/images/works/marino-2.png" alt="marino-work" />

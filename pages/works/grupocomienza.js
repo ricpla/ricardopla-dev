@@ -29,6 +29,10 @@ const Work = () => {
                         <Meta>Stack</Meta>
                         <span>NodeJs, HTML5, CSS3, Javascript</span>
                     </ListItem>
+                    <ListItem>
+                        <Meta>Hosting</Meta>
+                        <span>Namecheap</span>
+                    </ListItem>
                 </List>
                 <WorkImage src="/images/works/grupo-2.png" alt="Grupocomienza" />
             </Container>

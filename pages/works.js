@@ -8,6 +8,7 @@ import marino from '../public/images/works/marino-1.png'
 import CoverImage from '../components/coverImage';
 import cMujer from '../public/images/works/gus-1.png'
 import funda from '../public/images/works/funda-1.png'
+import ricdev from '../public/images/works/ricdev-2.png'
 
 const Works = () => {
     return (
@@ -19,6 +20,11 @@ const Works = () => {
                 </Heading>
 
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
+                    <Section>
+                        <WorkGridItem id="ricardopla" title="Ricardo Pla Portfolio" thumbnail={ricdev}>
+                            My Personal Website
+                        </WorkGridItem>
+                    </Section>
                     <Section>
                         <WorkGridItem id="marinoturismo" title="Mariño turismo" thumbnail={marino}>
                             Web for Mariño Turismo
