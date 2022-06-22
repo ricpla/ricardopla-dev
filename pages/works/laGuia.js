@@ -27,6 +27,7 @@ const Work = () => {
                 </List>
 
                 <WorkImage src="/images/works/s90-td-11994-02g-mockup.png" alt="laguia-work" />
+                <WorkImage src="/images/works/laguia.png" alt="laguia-work" />
             </Container>
         </Layout>
     )
