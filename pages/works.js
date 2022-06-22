@@ -9,6 +9,7 @@ import CoverImage from '../components/coverImage';
 import cMujer from '../public/images/works/gus-1.png'
 import funda from '../public/images/works/funda-1.png'
 import ricdev from '../public/images/works/ricdev-2.png'
+import laguia from '../public/images/works/5404138m.png'
 
 const Works = () => {
     return (
@@ -20,6 +21,11 @@ const Works = () => {
                 </Heading>
 
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
+                    <Section>
+                        <WorkGridItem id="laGuia" title="La Guía App" thumbnail={laguia}>
+                            Movil application for the search of commercial services
+                        </WorkGridItem>
+                    </Section>
                     <Section>
                         <WorkGridItem id="ricardopla" title="Ricardo Pla Portfolio" thumbnail={ricdev}>
                             My Personal Website
