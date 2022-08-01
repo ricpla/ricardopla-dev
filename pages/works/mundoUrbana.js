@@ -6,11 +6,11 @@ import Layout from "../../components/layouts/article"
 
 const Work = () => {
     return (
-        <Layout title="marino turismos">
+        <Layout title="Mundo Urbana">
             <Container>
                 <WorkImage src="/images/works/marino-1.png" alt="marino-cover" />
                 <Title>
-                    Mariño Turismo <Badge>2022</Badge>
+                    Mundo Urbana <Badge>2022</Badge>
                 </Title>
                 <P>
                     Design, creation and implementation of the web page directed to
@@ -19,8 +19,8 @@ const Work = () => {
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href="https://alcaldiademarino.com/marino-turismo/index.php">
-                            https://alcaldiademarino.com/marino-turismo/index.php <ExternalLinkIcon mx="2px" />
+                        <Link href="https://mundourbana.com/">
+                            https://mundourbana.com/ <ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
                     <ListItem>
@@ -28,12 +28,12 @@ const Work = () => {
                         <span>Web</span>
                     </ListItem>
                     <ListItem>
-                        <Meta>Stack</Meta>
-                        <span>PHP, HTML5, CSS3, Javascript, Jquery</span>
+                        <Meta>Technology</Meta>
+                        <span>Wordpress</span>
                     </ListItem>
                     <ListItem>
                         <Meta>Hosting</Meta>
-                        <span>Heroku</span>
+                        <span>Hostinger</span>
                     </ListItem>
                 </List>
 
