@@ -33,7 +33,7 @@ const Work = () => {
                     </ListItem>
                     <ListItem>
                         <Meta>Hosting</Meta>
-                        <span>Heroku</span>
+                        <span>No Data</span>
                     </ListItem>
                 </List>
 
