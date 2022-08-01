@@ -22,6 +22,16 @@ const Works = () => {
 
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
                     <Section>
+                        <WorkGridItem id="tarjetaUrbana" title="Tarjeta Urbana" thumbnail={laguia}>
+                            Movil application for the search of commercial services
+                        </WorkGridItem>
+                    </Section>
+                    <Section>
+                        <WorkGridItem id="mundoUrbana" title="Mundo Urbana" thumbnail={laguia}>
+                            Movil application for the search of commercial services
+                        </WorkGridItem>
+                    </Section>
+                    <Section>
                         <WorkGridItem id="laGuia" title="La Guía App" thumbnail={laguia}>
                             Movil application for the search of commercial services
                         </WorkGridItem>
