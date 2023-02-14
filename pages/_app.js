@@ -12,6 +12,7 @@ if (typeof window !== 'undefined') {
 function Website({ Component, pageProps, router }) {
   return (
     <>
+      {/* Addsense Script */}
       <Script
         async
         strategy="afterInteractive"
